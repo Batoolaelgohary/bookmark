@@ -1,0 +1,32 @@
+body{
+    background-image: url( ../images/bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+h1{
+    font-family: 'Pacifico', cursive;
+    font-size: 62px;
+    color: #527853;
+}
+
+
+.form{
+    margin-block: 20px;
+    padding-block: 20px;
+    border-bottom: 2px dashed #000;
+    border-top: 2px dashed #000;
+}
+
+.form h2{
+    background-image: linear-gradient(to right, #295737, #d1c757);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+input:focus{
+    box-shadow: 0 0 0 0.25rem #52785388 !important;
+    border-color: #527853 !important;
+}
